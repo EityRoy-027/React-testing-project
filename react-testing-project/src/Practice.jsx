@@ -1,7 +1,7 @@
 export const Practice = () =>{
     
 
-const Students =[];
+const Students =[4];
 
 return (
 
@@ -9,7 +9,15 @@ return (
 <>
 
 
-<p>{Students.length && }</p>
+{/* <p>{Students.length && "No Students found"}</p>
+
+<p>{Students.length===0 && "No Students found"}</p>
+
+<p>{Students.length===1 && "No Students found"}</p> */}
+
+<p>{!Students.length && "No Students found"}</p>
+
+<p>Number of Students : {Students.length}</p>
 
 </>
 
